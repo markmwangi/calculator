@@ -37,7 +37,7 @@ public class Calculator implements ActionListener {
 		calcFrame.setLocationRelativeTo(null);
 		calcFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		calcFrame.setLayout(new GridLayout(6,1));
-//		calcFrame.setUndecorated(true);
+
 		//Creating and setting layouts for panels that will store buttons and textfield
 		panel1 = new JPanel();
 		panel1.setLayout(new GridLayout(1,1));
